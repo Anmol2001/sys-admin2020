@@ -1,4 +1,6 @@
-Q1 
+Q1 Here conceptually we have to check server logs from var/log/  https://www.loggly.com/ultimate-guide/linux-logging-basics/
+and check suspicious activity(like so many authentication failures from same user) . We can  basically use Regex and Parsing (Re in python) to find errors with known results.We can use cron to schedule the execution of script.Script can be written in pyhton to mail to the admin everynight and Regex and Parsing can be done here.I have found such scripts https://github.com/pythonicways/parser https://www.google.com/amp/s/pythonicways.wordpress.com/2016/12/20/log-file-parsing-in-python/amp/ .
+
 
 
 Q2 This question can be done by installing and using the "whois" command followed by the domain name i.e. iitmandi.ac.in as students.iitmandi.ac.in is a subdomain of it.
@@ -27,4 +29,4 @@ PORT     STATE    SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 28.21 seconds
 
 
-So it is clearly visible that it has 4 open ports.
+So it is clearly visible that it has 4 open ports and 7 filtered ports from port 0 to 2000.
